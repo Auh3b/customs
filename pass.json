@@ -1,0 +1,101 @@
+[
+  {
+    "cat1_min": 10,
+    "cat1_max": 11,
+    "cat1": "10-11",
+    "cat2_min": 0,
+    "cat2_max": 8,
+    "cat2": "0-8",
+    "import_duty": 0.25,
+    "import_excise": 0.55,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 10,
+    "cat1_max": 11,
+    "cat1": "10-11",
+    "cat2_min": 8,
+    "cat2_max": 12,
+    "cat2": "8-12",
+    "import_duty": 0.25,
+    "import_excise": 0.8,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 10,
+    "cat1_max": 11,
+    "cat1": "10-11",
+    "cat2_min": 12,
+    "cat2_max": 100,
+    "cat2": "12-100",
+    "import_duty": 0.25,
+    "import_excise": 1.1,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 11,
+    "cat1_max": 31,
+    "cat1": "11-31",
+    "cat2_min": 0,
+    "cat2_max": 8,
+    "cat2": "0-8",
+    "import_duty": 0.15,
+    "import_excise": 0.05,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 11,
+    "cat1_max": 31,
+    "cat1": "11-31",
+    "cat2_min": 8,
+    "cat2_max": 12,
+    "cat2": "8-12",
+    "import_duty": 0.15,
+    "import_excise": 0.3,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 11,
+    "cat1_max": 31,
+    "cat1": "11-31",
+    "cat2_min": 12,
+    "cat2_max": 100,
+    "cat2": "12-100",
+    "import_duty": 0.15,
+    "import_excise": 0.6,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 31,
+    "cat1_max": 44,
+    "cat1": "31-44",
+    "cat2_min": 0,
+    "cat2_max": 8,
+    "cat2": "0-8",
+    "import_duty": 0.15,
+    "import_excise": 0.0,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 31,
+    "cat1_max": 44,
+    "cat1": "31-44",
+    "cat2_min": 8,
+    "cat2_max": 12,
+    "cat2": "8-12",
+    "import_duty": 0.15,
+    "import_excise": 0.1,
+    "import_vat": 0.165
+  },
+  {
+    "cat1_min": 31,
+    "cat1_max": 44,
+    "cat1": "31-44",
+    "cat2_min": 12,
+    "cat2_max": 100,
+    "cat2": "12-100",
+    "import_duty": 0.15,
+    "import_excise": 0.25,
+    "import_vat": 0.165
+  }
+]

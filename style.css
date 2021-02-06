@@ -1,0 +1,24 @@
+* {
+  font-family: "Roboto", sans-serif !important;
+}
+
+body {
+  background: url("https://source.unsplash.com/collection/31626755") center
+    center/cover no-repeat !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#back::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  border-radius: 10px;
+}

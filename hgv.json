@@ -1,0 +1,79 @@
+[
+  {
+    "cat1_min": 0,
+    "cat1_max": 10,
+    "cat1": "0-10",
+    "cat2_min": 0,
+    "cat2_max": 15,
+    "cat2": "0-15",
+    "import_duty": 0.1,
+    "import_excise": 0.05,
+    "import_vat": 0.17
+  },
+  {
+    "cat1_min": 10,
+    "cat1_max": 15,
+    "cat1": "Oct.15",
+    "cat2_min": 0,
+    "cat2_max": 15,
+    "cat2": "0-15",
+    "import_duty": 0.1,
+    "import_excise": 0.05,
+    "import_vat": 0.17
+  },
+  {
+    "cat1_min": 10,
+    "cat1_max": 15,
+    "cat1": "Oct.15",
+    "cat2_min": 15,
+    "cat2_max": 100,
+    "cat2": "15-100",
+    "import_duty": 0.1,
+    "import_excise": 0.2,
+    "import_vat": 0.17
+  },
+  {
+    "cat1_min": 15,
+    "cat1_max": 20,
+    "cat1": "15-20",
+    "cat2_min": 0,
+    "cat2_max": 15,
+    "cat2": "0-15",
+    "import_duty": 0.0,
+    "import_excise": 0.05,
+    "import_vat": 0.0
+  },
+  {
+    "cat1_min": 15,
+    "cat1_max": 20,
+    "cat1": "15-20",
+    "cat2_min": 15,
+    "cat2_max": 100,
+    "cat2": "15-100",
+    "import_duty": 0.0,
+    "import_excise": 0.2,
+    "import_vat": 0.0
+  },
+  {
+    "cat1_min": 20,
+    "cat1_max": 100,
+    "cat1": "20-100",
+    "cat2_min": 0,
+    "cat2_max": 15,
+    "cat2": "0-15",
+    "import_duty": 0.0,
+    "import_excise": 0.05,
+    "import_vat": 0.0
+  },
+  {
+    "cat1_min": 20,
+    "cat1_max": 100,
+    "cat1": "20-100",
+    "cat2_min": 15,
+    "cat2_max": 100,
+    "cat2": "15-100",
+    "import_duty": 0.0,
+    "import_excise": 0.2,
+    "import_vat": 0.0
+  }
+]

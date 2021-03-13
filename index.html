@@ -13,80 +13,96 @@
 
     <title>Customs Calculator</title>
   </head>
-  <body class="container min-vh-100">
-    <div
-      class="row rounded mx-auto text-light col-10 col-md-8 col-lg-6 mt-5 p-5"
-    >
-      <div id="back" class="container">
-        <div id="header" class="container">
-          <h2 class="text-center">Malawi Custom Tax Calculator</h2>
-        </div>
-        <div id="option" class="m-2 form-check-inline mx-3 px-5">
-          <label class="opt mx-1 form-check-label"
-            ><input
-              type="radio"
-              class="form-check-input"
-              name="option"
-              id=""
-            />Car</label
-          >
-          <label class="opt mx-1 form-check-label"
-            ><input
-              type="radio"
-              class="form-check-input"
-              name="option"
-              id=""
-            />Passanger</label
-          >
-          <label class="opt mx-1 form-check-label"
-            ><input
-              type="radio"
-              class="form-check-input"
-              name="option"
-              id=""
-            />Heavy Goods</label
-          >
-        </div>
-        <form class="px-5 text-center">
-          <div class="form-group">
-            <div class="parameter">
-              <label for=""
-                >Year of Make :
-                <input
-                  type="number"
-                  class="form-control"
-                  name="year"
-                  id="year"
-                  placeholder="Examble: 2010"
-              /></label>
-            </div>
-            <div class="parameter">
-              <label for=""
-                >Enter <span id="parameter-text"></span>:
-                <input
-                  type="number"
-                  class="form-control"
-                  name="paramerter"
-                  id="parameter"
-              /></label>
+  <body>
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center pt-5 mt-5">
+            <div class="card bg-dark text-white">
+              <div class="card-header">
+                <h4 class="card-title">Malawi Custom Tax Calculator</h4>
+              </div>
+              <div class="card-block mx-5">
+                <form>
+                  <div id="options" class="py-3">
+                    <p class="lead">Choose Vehicle Category</p>
+                    <div class="form-check-inline">
+                      <label class="opt mx-1 form-check-label"
+                        ><input
+                          type="radio"
+                          class="form-check-input"
+                          name="option"
+                          id=""
+                        />Car</label
+                      >
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="opt mx-1 form-check-label"
+                        ><input
+                          type="radio"
+                          class="form-check-input"
+                          name="option"
+                          id=""
+                        />Passanger</label
+                      >
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="opt mx-1 form-check-label"
+                        ><input
+                          type="radio"
+                          class="form-check-input"
+                          name="option"
+                          id=""
+                        />Heavy Goods</label
+                      >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Year of Make"
+                      id="year"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder=""
+                      id="parameter"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Purchasing Price"
+                      id="amount"
+                    />
+                  </div>
+                  <button
+                    id="calculate"
+                    type="button"
+                    class="btn btn-outline-info mb-3"
+                  >
+                    Calculate
+                  </button>
+                </form>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id="payable" class="text-center mt-1"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="form-group">
-            <label for=""
-              >Enter Vehicle Price :<input
-                type="number"
-                class="form-control"
-                name="amount"
-                id="amount"
-            /></label>
-          </div>
-          <button id="calculate" type="button" class="btn btn-dark">
-            Calculate
-          </button>
-        </form>
-        <div id="payable" class="container text-center mt-5"></div>
+        </div>
       </div>
     </div>
+
     <!-- scripts -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
